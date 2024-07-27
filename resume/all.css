@@ -1,0 +1,108 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+body {
+    box-sizing: border-box;
+    /* google fonts Castoro */
+    font-family: "Castoro", serif; 
+    font-weight: 400;
+    line-height: 1.5;
+    list-style: none;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.header>.title {
+    font-size: 128px;
+    margin-right: auto;
+    outline: 1px solid #000;
+}
+.header>.resume {
+    font-size: 128px;
+    margin-left: auto;
+    outline: 1px solid #000;
+}
+.letter-spacing {
+    letter-spacing: 15px;
+}
+.header>.img {
+    width: 636px;
+    outline: 1px solid #000;
+    object-fit: cover;
+}
+.img>img {
+    width: 100%;
+    display: block;
+}
+.intro {
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #EFEFEF;
+}
+.intro .content {
+    max-width: 1080px;
+    margin-left: auto;
+    width: 50%;
+    outline: 1px solid #000;
+    font-size: 32px;
+    line-height: 48px;
+}
+.m-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+section.content {
+    margin-top: 40px;
+    margin-bottom: 120px;
+    max-width: 1080px;
+    margin-right: auto;
+}
+section.content h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+.content h1 {
+    color: #AE0000;
+    border-bottom: 1px solid #AE0000;
+    margin-bottom: 16px;
+}
+.year {
+    font-style: italic;
+    color: #949494;
+}
+.fz {
+    font-size: 24px;
+    line-height: 36px;
+}
+.m-40 li{
+    margin-bottom: 16px;
+}
+.awards li {
+    margin-bottom: 12px;
+}
+.mb-1 {
+    margin-bottom: 16px;
+}
+.mb-2 {
+    margin-bottom: 8px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.footer div {
+    width: 64px;
+    aspect-ratio: 1 1;
+    margin: 64px 20px;
+}
