@@ -14,29 +14,22 @@ body {
     margin: 0 auto;
 }
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 160px;
 }
-.header>.title {
+.title {
     font-size: 128px;
-    margin-right: auto;
-    outline: 1px solid #000;
 }
-.header>.resume {
+.resume {
     font-size: 128px;
-    margin-left: auto;
-    outline: 1px solid #000;
+    text-align: right;
 }
 .letter-spacing {
     letter-spacing: 15px;
 }
 .header>.img {
     width: 636px;
-    outline: 1px solid #000;
     object-fit: cover;
+    margin: 0 auto;
 }
 .img>img {
     width: 100%;
@@ -52,7 +45,6 @@ body {
     max-width: 1080px;
     margin-left: auto;
     width: 50%;
-    outline: 1px solid #000;
     font-size: 32px;
     line-height: 48px;
 }
@@ -97,12 +89,13 @@ section.content h1 {
     margin-bottom: 8px;
 }
 .footer {
-    display: flex;
-    justify-content: center;
     background-color: #000000;
 }
-.footer div {
+.wrap {
+    text-align: center;
+}
+.footer img {
+    display: inline-block;
     width: 64px;
-    aspect-ratio: 1 1;
     margin: 64px 20px;
 }
