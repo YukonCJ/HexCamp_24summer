@@ -4,13 +4,13 @@
 body {
     box-sizing: border-box;
     /* google fonts Castoro */
-    font-family: "Castoro", serif; 
+    font-family: "Castoro", serif;
     font-weight: 400;
     line-height: 1.5;
     list-style: none;
 }
 .container {
-    max-width: 1080px;
+    max-width: 1296px;
     margin: 0 auto;
 }
 .header {
@@ -32,7 +32,6 @@ body {
     margin: 0 auto;
 }
 .img>img {
-    width: 100%;
     display: block;
 }
 .intro {
@@ -42,11 +41,9 @@ body {
     background-color: #EFEFEF;
 }
 .intro .content {
-    max-width: 1080px;
     margin-left: auto;
     width: 50%;
     font-size: 32px;
-    line-height: 48px;
 }
 .m-40 {
     margin-top: 40px;
@@ -54,14 +51,12 @@ body {
     width: 50%;
 }
 section.content {
-    margin-top: 40px;
-    margin-bottom: 120px;
-    max-width: 1080px;
+    margin-top: 80px;
+    margin-bottom: 160px;
     margin-right: auto;
 }
 section.content h1 {
     font-size: 40px;
-    line-height: 60px;
 }
 .content h1 {
     color: #AE0000;
@@ -71,6 +66,7 @@ section.content h1 {
 .year {
     font-style: italic;
     color: #949494;
+    font-size: 20px;
 }
 .fz {
     font-size: 24px;
@@ -78,6 +74,10 @@ section.content h1 {
 }
 .m-40 li{
     margin-bottom: 16px;
+    font-size: 24px;
+}
+.about-me li {
+    margin-bottom: 8px;
 }
 .awards li {
     margin-bottom: 12px;
