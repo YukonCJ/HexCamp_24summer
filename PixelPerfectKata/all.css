@@ -1,0 +1,32 @@
+@import url('./reset.css');
+body {
+    line-height: 1.5;
+}
+img {
+    vertical-align: bottom;
+}
+.container {
+    max-width: 640px;
+    display: flex;
+    margin: 0 auto;
+}
+.newsList {
+    margin-right: 20px;
+}
+.news {
+    margin-bottom: 24px;
+    display: flex;
+}
+.newsImg {
+    margin-right: 20px;
+}
+.title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.newsContent p {
+    font-size: 16px;
+}
+.footer p {
+    font-size: 16px;
+}
