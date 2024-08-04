@@ -1,0 +1,235 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+:root {
+  --bgBlack: #000;
+  --bgWhite: #fff;
+  --fWhite: #fff;
+  --fGrey: #D1D1D1;
+  --fBlack: #000;
+  --fIron: #15161D;
+  --fSm:16px;--fMd:20px;--fLg:24px;--fXl:64px;--fXxl:128px;
+}
+*, body, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+img {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 32px;
+    font-size: var(--fSm);
+}
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+Header {
+  background-color: var(--bgBlack);
+  color: var(--fWhite);
+}
+.navbar ol {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li {
+    margin-top: 52px;
+    margin-bottom: 52px;
+    font-size: var(--fSm);
+}
+.navbar a {
+    color: var(--fGrey);
+}
+.banner {
+    display: flex;
+}
+.mainPic {
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+.topic {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.topic h1 {
+    font-size: var(--fXl);
+    text-align: left;
+}
+.topic b {
+    display: block;
+    font-size: var(--fXxl);
+    text-align: right;
+    color: #00FFA3;
+}
+.btn {
+    text-align: right;
+}
+.btn a {
+    background-color: var(--bgWhite);
+    color: var(--fBlack);
+    display: inline-block;
+    font-size: 0;
+}
+.btnText {
+    font-size: var(--fSm);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+/* .5+2.5 hrs */
+.intro {
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
+}
+.intro .container {
+    display: flex;
+    padding: 160px 0;
+}
+.intro .title {
+    font-size: var(--fXl);
+    color: var(--fWhite);
+    margin-bottom: 36px;
+}
+.intro .content p {
+    font-size: var(--fLg);
+    color: var(--fWhite);
+    margin-bottom: 32px;
+}
+.sparkleSm {
+    display: flex;
+    padding: -8px;
+}
+.sparkleSm li {
+    width: 32px;
+    margin: 0 8px;
+}
+.introPic {
+    display: flex;
+    padding: 0 -12px;
+}
+.introPic li {
+    margin: 0 12px;
+}
+/* 0.5 */
+.aboutMe .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 0;
+}
+ol.softSkill {
+    width: 636px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.softSkill li {
+    width: 306px;
+    font-size: var(--fMd);
+    color: var(--fIron);
+    padding: 14px 16px;
+    border: 1px solid #E3E3E3;
+}
+.card:nth-child() {
+    margin: 2px 0;
+}
+.card p {
+    font-size: var(--fSm);
+}
+.article {
+    width: 526px;
+}
+.article .title {
+    font-size: var(--fXl);
+    margin-bottom: 36px;
+}
+.article p {
+    font-size: var(--fLg);
+    color: var(--fIron);
+}
+.socialApps {
+    background: linear-gradient(#050014, #01021EE3 89%);
+}
+.socialApps .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+.socialApps .title {
+    display: flex;
+    align-items: center;
+}
+.socialApps h2 {
+    color: var(--fWhite);
+    font-size: var(--fXl);
+    margin-right: 16px;
+}
+.title img {
+    width: 100px;
+}
+.apps {
+    display: flex;
+    padding: 0 -10px;
+}
+.apps li {
+    margin: 0 10px;
+    width: 162px;
+}
+.apps a {
+    padding: 0;
+    border-radius: 40px;
+}
+.apps li:hover {
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    border-radius: 40px;
+}
+/* 1.5 */
+.myProjects .container {
+    padding: 160px 0;
+}
+.mr-24 {
+    margin-right: 24px;
+}
+.myProjects h2 {
+    font-size: var(--fXl);
+    display: inline-block;
+    width: 746px;
+    margin-left: 550px;
+}
+.picBox, .box1, .box2 {
+    display: flex;
+}
+.box1 {
+    margin-bottom: 28px;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail p {
+    font-size: var(--fSm);
+}
+.myProjects .btn {
+    text-align: left;
+}
+.myProjects .btn a {
+    background-color: var(--bgBlack);
+    color: var(--fWhite);
+    font-size: var(--fSm);
+}
+/* 1 */
+.footer {
+    background-color: var(--bgBlack);
+    padding: 40px 0;
+}
+.footer h3 {
+    color: var(--fWhite);
+    text-align: center;
+}
