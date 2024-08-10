@@ -10,12 +10,14 @@
   --fIron: #15161D;
   --fSm:16px;--fMd:20px;--fLg:24px;--fXl:64px;--fXxl:128px;
 }
-*, body, *::before, *::after {
+*, *::before, *::after {
   box-sizing: border-box;
-  font-family: "Bruno Ace SC", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.5;
+}
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
 }
 img {
     vertical-align: middle;
