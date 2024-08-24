@@ -1,0 +1,26 @@
+.service,
+.contactUs {
+    background-color: var(--fLightRed);
+}
+
+.design {
+    background: url('/Users/jheyangcai/Project/HexCamp_24summer/web-layout-training-vite-main/assets/images/index-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactUs .container {
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+.h-136 {
+    height: 136px;
+}
+
+.submit {
+    width: 416px;
+    padding: 16px;
+    margin: 0 auto;
+}

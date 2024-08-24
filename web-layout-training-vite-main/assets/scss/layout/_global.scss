@@ -1,0 +1,305 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+
+:root {
+  --fRed: #aa0601;
+  --fLightRed: #fbf2f2;
+  --fDarkRed: #650300;
+  --fBlack: #000000;
+  --fBeige: #fbf2f2;
+  --fGrey: #707070;
+  --h2Fw: 700;
+  --fw900: 900;
+  --f16: 16px;
+  --f20: 20px;
+  --f24: 24px;
+  --f36: 36px;
+  --f48: 48px;
+  --f64: 64px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  &:hover {
+    background-color: var(--fDarkRed);
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+h2 {
+  font-weight: var(--h2Fw);
+}
+
+.fw-900 {
+  font-weight: var(--fw900);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.f-36 {
+  font-size: 36px;
+}
+
+.f-48 {
+  font-size: 48px;
+}
+
+.f-64 {
+  font-size: 64px;
+}
+
+.bg-primary {
+  background-color: var(--fRed);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.white {
+  color: #fff;
+}
+
+.red {
+  color: var(--fRed);
+}
+
+.darkRed {
+  color: var(--fDarkRed);
+}
+
+.grey {
+  color: var(--fGrey);
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.my-10p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.g-24 {
+  gap: 24px;
+}
+
+.g-32 {
+  gap: 32px;
+}
+
+.g-48 {
+  gap: 48px;
+}
+
+.g-64 {
+  gap: 64px;
+}
+
+.px-6 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.px-12 {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.py-6 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.py-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.w-24p {
+  width: 24%;
+}
+
+.w-27p {
+  width: 27%;
+}
+
+.w-32p {
+  width: 32%;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+.w-48 {
+  width: 48px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.bb-white {
+  border-bottom: 1px solid white;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 6px #00000029;
+}
+
+.br-4 {
+  border-radius: 4px;
+}
+
+.outline {
+  outline: 1px solid red;
+}

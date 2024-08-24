@@ -1,0 +1,15 @@
+.navbar {
+    height: 80px;
+}
+
+.banner {
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+.logo {
+    width: 80px;
+}
